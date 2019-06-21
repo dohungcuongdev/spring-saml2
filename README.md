@@ -49,12 +49,15 @@ https://accounts.google.com/signin/v2/identifier?service=youtube&uilel=3&passive
 1. access http://localhost:8080/spring-security-saml2-sample/
 2. checkin https://idp.ssocircle.com  and Start single sign-on
 3. browser will send redirect to /idp.ssocircle.com login page
-4. login with username and password: dohungcuongdev Cuong@12101995
+4. login with username and password: username: dohungcuongdev or cuongdo1295  password: Cuong@12101995
 5. From there checkin "I am not a robot" and click Continue SAML Single Sign on
 6. browser will redirect to http://localhost:8080/spring-security-saml2-sample/ and show authenticated information
 7. You can enter the address bar the URL http://localhost:8080/spring-security-saml2-sample/ to login again
 8. browser will send redirect to /idp.ssocircle.com without login require
 9. You can click logout from there
+
+#Note:
+Change the port to be different from 8080 may lead to SSO error, idp.ssocircle.com does not redirect into your SP after logged in successfully
 
 **References**
 # What is SAML

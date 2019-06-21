@@ -39,7 +39,7 @@
                                 <br/>
                             </c:forEach>
                             <br>
-                            <input class="button" type="submit" value="<%=buttonValue %>>"/>
+                            <input class="button" type="submit" value="<%=buttonValue %>"/>
                         </form>
                     </div>
                 </div>
